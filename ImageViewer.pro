@@ -26,10 +26,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    qextendedpushbutton.cpp \
+    pathlisteditor.cpp \
+    pathlisteditoritem.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    qextendedpushbutton.h \
+    pathlisteditor.h \
+    pathlisteditoritem.h
 
 FORMS += \
         mainwindow.ui
